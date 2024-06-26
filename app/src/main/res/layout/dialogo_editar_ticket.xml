@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/txtNumero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/txtTituloEditar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Título" />
+
+        <EditText
+            android:id="@+id/txtDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción" />
+
+        <EditText
+            android:id="@+id/txtAutor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Autor" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtFechaCreacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Creación" />
+
+        <EditText
+            android:id="@+id/txtEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Estado" />
+
+        <EditText
+            android:id="@+id/txtFechaFinalizacion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fecha de Finalización" />
+
+    </LinearLayout>
+
